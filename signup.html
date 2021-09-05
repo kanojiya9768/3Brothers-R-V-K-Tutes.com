@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>3Brothers</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <!-- <link rel="stylesheet" href="css/footer.css"> -->
+
+</head>
+
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark "">
+        <div class=" container-fluid">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-om" style="margin-right: 4px;"></i>3Brothers(R_V_K)</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html"><i class="fas fa-home" style="margin-right: 5px;"></i>Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fas fa-address-card" style="margin-right: 7px;"></i>About-Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-user-graduate" style="margin-right: 5px;"></i>
+                        Courses
+                    </a>
+                    <ul class="dropdown-menu"
+                        style="background-color: rgb(61, 54, 54); opacity: 1; border-radius: 10px;">
+                        <li><a class="dropdown-item" href="#">Programming Languages</a></li>
+                        <li><a class="dropdown-item" href="#">Web Development</a></li>
+                        <li><a class="dropdown-item" href="#">Software Development</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">More Comming Soon</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-book-reader" style="margin-right: 5px;"></i>
+                        CheetSheat
+                    </a>
+                    <ul class="dropdown-menu"
+                        style="background-color: rgb(61, 54, 54); opacity: 1; border-radius: 10px;">
+                        <li><a class="dropdown-item" href="programming.html">Programming Cheetsheat</a></li>
+                        <li><a class="dropdown-item" href="WebCheat.html">Web Development</a></li>
+                        <!-- <li><a class="dropdown-item" href="#">Software Development</a></li> -->
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">More Comming Soon</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><i class="fas fa-id-card-alt" style="margin-right: 5px;"></i>Contact-Us</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+               <a href="Login.html"><button class="btn btn-outline-success" type="button" style="margin-right: 8px;"><i class="fas fa-sign-in-alt"></i>Login</button></a>
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"><i class="fas fa-search-minus"></i>Search</button>
+            </form>
+        </div>
+        </div>
+    </nav>
+
+    <br>
+
+
+    <hr>
+    <hr>
+    <h3>
+        <a href="index.html" style="text-decoration: none;"><marquee behavior="scroll" direction="right"><i class="fas fa-om" style="margin-right: 4px;"></i>3Brothers(R_V_K)</marquee></a>
+    </h3>
+    <hr>
+    <hr>
+    <br>
+
+    <form action="Login.html" class="signupform">
+
+        <h1><i class="fas fa-user-circle" style="margin-right: 5px;"></i>SignUp Page</h1>
+
+        <p class="form-element">first Name:-<input type="text" name="fname" id="fname" class="signup-items" placeholder="Enter Fname"
+                required></p>
+        <p class="form-element">Last Name:-<input type="text" name="lname" id="lname" class="signup-items" placeholder="Enter Lname"
+                required></p>
+        <p class="form-element">Qualification:-<input type="text" name="Qualification" id="Qualification" class="signup-items"
+                placeholder="Enter Qualification" required></p>
+        <p class="form-element">Profession:-<input type="text" name="Profession" id="Profession" class="signup-items"
+                placeholder="Enter Profession" required></p>
+        <p class="form-element">Email:-<input type="email" name="emailid" id="email" class="signup-items" placeholder="Enter Password" required></p>
+        <p class="form-element">Password:-<input type="password" name="password" id="password" class="signup-items"
+                placeholder="Enter Password" required></p>
+        <p class="form-element">Phone no:-<input type="number" name="number" id="number" class="signup-items" placeholder="Enter Phone Number" required></p>
+
+        <div id="submitbtn">
+            <a href="login.html"><button type="submit" onclick="alert('signUp has Done Successfully')"
+                class="printpage">SignUp</button></a>
+
+        </div>
+
+        <a href="#" onclick="form()"><p><button type="button"  class="printpage">Print</button></p></a>
+
+
+    </form>
+
+    <br><br>
+
+
+    <script src="js/signupPrint.js">
+        // function form(){
+        //     var fname=document.getElementById("fname").value;
+        //     var lname=document.getElementById("lname").value;
+        //     var Qualification=document.getElementById("Qualification").value;
+        //     var Profession=document.getElementById("Profession").value;
+        //     var phone = document.getElementById("number").value;
+        //     var email=document.getElementById("email").value;
+        //     var password=document.getElementById('password').value;
+        // document.write("<center><h1> SignUp Form Print </h1> <hr> <hr> <br></center>")
+
+        //   document.write("<center><h3><b> First Name :- "+fname + "</h3>");
+          
+        //   document.write("<center><h3><b /> Last Name :- "+lname + "</h3>");
+          
+        //   document.write("<center><h3><b /> Qualification :- "+Qualification + "</h3>");
+          
+        //   document.write("<center><h3><b /> Profession :- "+ Profession + "</h3>");
+          
+        //   document.write("<center><h3><b /> Phone Number :- "+phone + "</h3>");
+          
+        //   document.write("<center><h3><b /> Email Id :- "+ email + "</h3>");
+
+        //   print();
+
+        // }
+    </script>
+
+    <footer>
+        <div class="Footer">
+          <form action="#" id="form">
+              <h3 class="Subscribe"><i class="fas fa-thumbs-up" style="margin-right: 3px;"></i>Subscribe Us</h3>
+            <input type="text" placeholder="Enter email address" id="email">
+            <button type="submit" class="Send" onclick="alert('Email Sent Succefully')">Send</button>
+            <p>Copyright © 2020 All rights reserved</p>
+          </form>
+      </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+    
+}
+
+body{
+    background-color: rgb(23, 132, 228);
+}
+
+.navbar{
+    font-size: 3.5vh;
+    font-weight: bold;
+    animation: spin .4s linear;
+   }
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  } 
+
+
+.dropdown-item{
+    color: white;
+    width: 40vw;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+marquee{
+    display: block;
+    width: 95%;
+    margin: auto;
+    background-color:rgb(10, 10, 9);
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 10rem;
+}
+
+hr{
+    color: rgb(15, 15, 15);
+    
+}
+
+.allcard{
+    background-color: rgb(30, 179, 199);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:5px solid rgb(7, 7, 7);
+    border-radius: 10px;
+}
+
+.card{
+      width: 50vw;
+      background-color: aqua;
+      margin-top: 5vh;
+      margin-bottom: 5vh;
+      box-shadow: 0 15px 15px black;
+}
+
+.login_link:hover{
+    background-color: green;
+    color: #fff;
+}
+
+.Footer{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    overflow: auto;
+    margin: auto;
+    background-color: black;
+}
+
+#form{
+    color: #fff;
+    width: 30vw;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+
+.Send{
+    display: block;
+    width: 10vw;
+    margin: auto;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+
+
+
+#email{
+    width: 27vw;
+    display: block;
+    margin:10px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

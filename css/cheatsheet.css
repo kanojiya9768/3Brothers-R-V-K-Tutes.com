@@ -1,0 +1,49 @@
+.cheat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    background-color:aqua;
+    margin: auto;
+    margin-top: 7vh;
+    margin-bottom: 8.1vh;
+    padding: 5vh;
+    border-radius: 2rem;
+    animation: spin .3s;
+}
+
+.cheat-name{
+    font-size: 3.5vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+     margin: 30px;
+     color: white;
+     /* border: 2px solid green; */
+     overflow: auto;
+     
+}
+
+.cheat-name:hover{
+    width: 50vw;
+         background-color:rgb(13, 14, 13);
+         color: #fff;
+         padding: 10px;
+         border-radius: 10px;
+         overflow: auto;
+      text-align: center;
+}
+
+.cheatlink{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
+
+.cheatlink:hover{
+    color: lime;
+}
+
+
+
+
